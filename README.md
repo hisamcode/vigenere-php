@@ -1,22 +1,19 @@
 # vigenere-php
 belajar oop php implementasi chipher vigenere
 
-require 'Vigenere/Vigenere.php';
+require 'Vigenere/Vigenere.php'; <br>
 
-use Sam\Vigenere\Vigenere as V;
+use Sam\Vigenere\Vigenere as V; <br>
 
-params : 
+params : <br> 
 1. plain
-2. key
+2. key 
+$encrypt = V::encrypt('kereeens','testing'); <br>
+echo 'encrypt : '.$encrypt; <br>
 
-$encrypt = V::encrypt('kereeens','testing');
-
-echo 'encrypt : ' . $encrypt . '<br>';
-
-params:
+params: <br>
 1. encrypted
 2. key 
-
-$decrypt = V::decrypt($en,'testing')
-
-echo 'decrypt : ' . $decrypt ;
+$decrypt = V::decrypt($encrypt,'testing'); <br>
+echo 'decrypt : '.$decrypt; <br>
+ 
