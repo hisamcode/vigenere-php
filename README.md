@@ -1,5 +1,5 @@
 # vigenere-php
-belajar oop php implementasi cipher vigenere
+cipher vigenere
 
 require 'Vigenere/Vigenere.php'; <br>
 
